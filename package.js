@@ -6,8 +6,8 @@ Package.describe({
 });
 
 Npm.depends({
-  'mysql': '2.10.2',
-  'mysql-live-select': '1.0.6'
+  'mysql': '2.15.0',
+  'mysql-live-select': "git+https://github.com/archiarcho/mysql-live-select.git"
 });
 
 Package.onUse(function(api) {
